@@ -1,9 +1,9 @@
-⦁	Create new Workbook 
-⦁	Save the Workbook 
-⦁	Load Existing Workbook
-⦁	Create Worksheet Object 
-⦁	Load Data From Dictionary in Worksheet
-⦁	Define heading Font 
-⦁	Price Change Mapped To New Column
-⦁	Add Chart To New " MychartSheet " Worksheet
-⦁	Save The Changes In File
+⦁	Create new workbook 
+⦁	Save the workbook 
+⦁	Load existing workbook
+⦁	Create worksheet Object 
+⦁	Load data from Dictionary in worksheet
+⦁	Define heading font 
+⦁	Price change mapped to new column
+⦁	Add chart to new " MychartSheet " worksheet
+⦁	Save the changes in excel file
