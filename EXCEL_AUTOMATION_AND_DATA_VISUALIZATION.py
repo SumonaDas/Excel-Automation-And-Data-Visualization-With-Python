@@ -135,7 +135,7 @@ connection.close()
 
 #################################################################### DATA VISUALIZATION ##########################################################
 
-# Load raw data in panda dataframe from visualization
+# Load raw data in panda dataframe for visualization
 data_records=pd.read_csv('Netflix_Userbase.csv')
 #Check if dataframe in clean
 msno.matrix(data_records)
