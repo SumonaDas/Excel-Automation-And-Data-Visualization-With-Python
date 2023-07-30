@@ -1,10 +1,10 @@
-EXCEL AUTOMATION & DATA VISUALIZATION PROJECT USING PYTHON3 WITH POPULAR 'Netflix Userbase Dataset' DATASET
+𝐄𝐗𝐂𝐄𝐋 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐎𝐍 & 𝐃𝐀𝐓𝐀 𝐕𝐈𝐒𝐔𝐀𝐋𝐈𝐙𝐀𝐓𝐈𝐎𝐍 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝐔𝐒𝐈𝐍𝐆 𝐏𝐘𝐓𝐇𝐎𝐍𝟑 𝐖𝐈𝐓𝐇 𝐏𝐎𝐏𝐔𝐋𝐀𝐑 '𝐍𝐞𝐭𝐟𝐥𝐢𝐱 𝐔𝐬𝐞𝐫𝐛𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭' 𝐃𝐀𝐓𝐀𝐒𝐄𝐓
 
-################## PROJECT DETAILS ##################
+################## 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 ##################
 
 ⦁ Import required modules 
 
-################## EXCEL AUTOMATION AND DATABASE CONNECTION ##################
+################## 𝐄𝐗𝐂𝐄𝐋 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐎𝐍 𝐀𝐍𝐃 𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐎𝐍 ##################
 
 ⦁ Connecting to sqlite database 
 ⦁ Creating cursor object
@@ -18,7 +18,7 @@ EXCEL AUTOMATION & DATA VISUALIZATION PROJECT USING PYTHON3 WITH POPULAR 'Netfli
 ⦁	Add chart to new " MychartSheet " worksheet
 ⦁	Save the changes in excel file
 
-################## DATA VISUALIZATION ##################
+################## 𝐃𝐀𝐓𝐀 𝐕𝐈𝐒𝐔𝐀𝐋𝐈𝐙𝐀𝐓𝐈𝐎𝐍 ##################
 
 ⦁	Load raw data in panda dataframe for visualization
 ⦁	Check if dataframe in clean
