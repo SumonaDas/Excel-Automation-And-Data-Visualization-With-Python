@@ -45,7 +45,7 @@ cursor.execute(create_table)
 
 
 # Read data into panda series from the .csv file
-insert_records=pd.read_csv('datafile/Netflix_Userbase.csv')
+insert_records=pd.read_csv('Netflix_Userbase.csv')
 
 # SQL query to insert data into the table and replace object type column to int type
 tempdict={}
@@ -69,11 +69,11 @@ for i in country_list:
     filename=str(list(i)[0])
     
     #Create new workbook
-    wb = Workbook("datafile/"+filename+".xlsx")
-    wb.save("datafile/"+filename+".xlsx")
+    wb = Workbook(filename+".xlsx")
+    wb.save(filename+".xlsx")
     
     # Load present workbook,Worksheet object point to an existing worksheet & access cell data
-    wb = load_workbook(filename  = "datafile/"+filename+".xlsx",data_only=True )
+    wb = load_workbook(filename  = filename+".xlsx",data_only=True )
     
     #If sheetname present remove 
     if "Mydatasheet" in wb.sheetnames:
@@ -127,7 +127,7 @@ for i in country_list:
     
     
     #Save workbook and close
-    wb.save('datafile/'+filename+'.xlsx')
+    wb.save(filename+'.xlsx')
     wb.close()
     
 # Closing the database connection
@@ -136,7 +136,7 @@ connection.close()
 #################################################################### DATA VISUALIZATION ##########################################################
 
 # Load raw data in panda dataframe from visualization
-data_records=pd.read_csv('datafile/Netflix_Userbase.csv')
+data_records=pd.read_csv('Netflix_Userbase.csv')
 #Check if dataframe in clean
 msno.matrix(data_records)
 
