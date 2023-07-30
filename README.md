@@ -2,7 +2,7 @@ EXCEL AUTOMATION & DATA VISUALIZATION PROJECT USING PYTHON3 WITH POPULAR 'Netfli
 
 ################## PROJECT DETAILS ##################
 
-⦁ Import required modules
+⦁ Import required modules 
 
 ################## EXCEL AUTOMATION AND DATABASE CONNECTION ##################
 
